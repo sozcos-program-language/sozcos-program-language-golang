@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	myLib "go-practice/1-basic/1-2-lib"
+	myLib "go-practice/1-basic/1-5-lib"
 )
 
 func lens2() {
