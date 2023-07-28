@@ -12,5 +12,6 @@ go-practice
       ├─1-4-init go的init函数
       ├─1-5-lib 库以及别名
       ├─1-6-underscores go的下划线
-      └─1-7-iota iota常量计数器
+      ├─1-7-iota iota常量计数器
+      ├─1-8-string go字符串
 ```
