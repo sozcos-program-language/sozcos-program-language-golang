@@ -13,7 +13,7 @@ import (
 	"fmt"
 	"os"
 
-	_ "go-practice/1-basic/1-3-init"
+	_ "go-practice/1-basic/1-4-init"
 )
 
 func main() {
