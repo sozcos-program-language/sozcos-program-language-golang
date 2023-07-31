@@ -14,4 +14,6 @@ go-practice
       ├─1-6-underscores go的下划线
       ├─1-7-iota iota常量计数器
       ├─1-8-string go字符串
+      ├─1-9-array go数组
+      ├─1-10-variant 变量定义
 ```
