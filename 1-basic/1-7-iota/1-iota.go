@@ -4,6 +4,9 @@ import (
 	"fmt"
 )
 
+/**
+ * Go 的 iota 操作
+ */
 func main() {
 	fmt.Println("iota 的使用方式1:")
 	fmt.Println("ConstValue1 = ", ConstValue1)
