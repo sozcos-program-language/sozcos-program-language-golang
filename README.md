@@ -17,4 +17,6 @@ go-practice
       ├─1-9-array go数组
       ├─1-10-variant 变量定义
       ├─1-11-map Map
+      ├─1-12-map Pointers 指针
+      ├─1-13-print 打印
 ```
