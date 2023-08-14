@@ -30,8 +30,6 @@ go-practice
 ```
 ## 扫码加入Go学习社群
 
-<p align = "center">
-    <img src="https://s2.loli.net/2023/08/14/xznh5SsLbQHAa68.jpg"  width="200"  alt="扫码加入Go学习社群"/>
-</p>
+![](https://s2.loli.net/2023/08/14/xznh5SsLbQHAa68.jpg)
 
 
