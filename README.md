@@ -23,7 +23,15 @@ go-practice
  │   ├─1-15-basic_types         基本类型
  │   ├─1-16-strings_and_strconv 字符串操作
  │   ├─1-17-date_and_time       日期和时间
+ │   ├─1-18-control_structures  控制结构
  │
  └─project  练习项目
      └─blockchain       区块链
 ```
+## 扫码加入Go学习社群
+
+<p align = "center">
+    <img src="https://s2.loli.net/2023/08/14/xznh5SsLbQHAa68.jpg"  width="200"  alt="扫码加入Go学习社群"/>
+</p>
+
+
