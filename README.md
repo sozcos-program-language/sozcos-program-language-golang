@@ -24,6 +24,7 @@ go-practice
  │   ├─1-16-strings_and_strconv 字符串操作
  │   ├─1-17-date_and_time       日期和时间
  │   ├─1-18-control_structures  控制结构
+ │   ├─1-19-multireturn_func    多返回值函数
  │
  └─project  练习项目
      └─blockchain       区块链
