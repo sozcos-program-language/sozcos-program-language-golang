@@ -72,5 +72,3 @@ func forStructures() {
 		fmt.Println(k, v)
 	}
 }
-
-//
