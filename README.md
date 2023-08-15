@@ -1,10 +1,19 @@
 ### Golang 学习项目。
 
+**注: 作者是一名 Java工程师, 因此在某些方面会使用 Java 进行比较**
+
+Go 的安装以及部署
+
+Windows10
+go 1.20
+IDE: GoLand 2023.1.3 
+
+
 #### 目录说明：
 
 ```text
 go-practice
- ├─1-basic  Go基础
+ ├─1-basic  Go 基础
  │   ├─1-0-key_features         主要特征
  │   ├─1-1-built_func           内置函数与类型
  │   ├─1-2-gopath               gopath和goModule
