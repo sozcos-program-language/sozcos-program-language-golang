@@ -37,10 +37,12 @@ func main() {
 	ch1 := make(chan int)
 	ch2 := make(chan int)
 
-	// selectCase1(ch1, ch2)
-	// selectCase2(ch1, ch2)
-	// selectCase3(ch1, ch2)
+	selectCase1(ch1, ch2)
+	selectCase2(ch1, ch2)
+	selectCase3(ch1, ch2)
 	selectCase4(ch1, ch2)
+	selectCase5(ch1, ch2)
+	selectCase6(ch1, ch2)
 }
 
 func selectCase1(ch1 chan int, ch2 chan int) {
@@ -115,6 +117,7 @@ func selectCase4(ch1 chan int, ch2 chan int) {
 			fmt.Println("add success")
 			time.Sleep(time.Second)
 		default:
+			// 这里可以判断通道是否阻塞, 做相应的处理
 			fmt.Println("资源已满，请稍后再试")
 			time.Sleep(time.Second)
 		}
@@ -140,4 +143,19 @@ func selectCase5(ch1 chan int, ch2 chan int) {
 
 	// 有时候我们会让main函数阻塞不退出，如http服务，我们会使用空的select{}来阻塞main goroutine
 	select {}
+}
+
+// select 的使用场景——退出
+func selectCase6(ch1 chan int, ch2 chan int) {
+	var shouldQuit = make(chan struct{})
+
+	select {
+	case <-shouldQuit:
+		// cleanUp()
+		return
+	default:
+	}
+
+	// 再另外一个协程中，如果运行遇到非法操作或不可处理的错误，就向shouldQuit发送数据通知程序停止运行
+	close(shouldQuit)
 }

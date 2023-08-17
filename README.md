@@ -37,6 +37,7 @@ go-practice
  │   ├─1-20-switch              switch 语句
  │   ├─1-21-for                 for 语句
  │   ├─1-22-break_and_continue  结束语句
+ │   ├─1-23-function            函数
  │
  └─project  练习项目
      └─blockchain       区块链
