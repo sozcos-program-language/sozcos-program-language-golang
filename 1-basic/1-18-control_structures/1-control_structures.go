@@ -10,11 +10,11 @@ import (
 	"math/rand"
 )
 
-func main() {
-	ifStructures()
-	switchStructures()
-	forStructures()
-}
+// func main() {
+// 	ifStructures()
+// 	switchStructures()
+// 	forStructures()
+// }
 
 // if 控制语句
 func ifStructures() {
