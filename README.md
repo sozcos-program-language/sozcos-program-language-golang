@@ -37,7 +37,10 @@ go-practice
  │   ├─1-20-switch              switch 语句
  │   ├─1-21-for                 for 语句
  │   ├─1-22-break_and_continue  结束语句
- │   ├─1-23-function            函数
+ │   └─1-23-struct              结构体
+ │ 
+ ├─2-function                   函数(函数定义、参数、返回值、匿名函数、闭包递归、延迟调用、异常处理
+ ├─3-test                       单元测试、压力测试
  │
  └─project  练习项目
      └─blockchain       区块链
