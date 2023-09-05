@@ -4,9 +4,22 @@
 package main
 
 import (
+	"errors"
 	"fmt"
 )
 
+// 构建新异常
+func getCircleArea(radius float32) (area float32, err error) {
+	if radius < 0 {
+		// 构建个异常对象
+		err = errors.New("半径不能为负")
+		return
+	}
+	area = 3.14 * radius * radius
+	return
+}
+
+// CustomError 自定义异常
 type CustomError struct {
 	table   string
 	message string

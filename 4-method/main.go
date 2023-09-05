@@ -41,4 +41,11 @@ func main() {
 	default:
 
 	}
+
+	area, err := getCircleArea(-1)
+	if err != nil {
+		fmt.Println(err)
+	} else {
+		fmt.Println(area)
+	}
 }
